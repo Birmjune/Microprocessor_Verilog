@@ -8,3 +8,6 @@ Also our microprocessor is not pipelined; the fetch -> decode -> execute cycle i
 The encodings for each instructions are shown as below:       
 
 ## How to use and test
+
+
+The implementations in this repo was used in the final project of SNU Logic Design (2025 Spring).
