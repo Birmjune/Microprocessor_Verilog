@@ -30,6 +30,7 @@ module Microprocessor_with_test(
 	
 	assign MemByte[9] = 8'b00000000;
 	assign MemByte[10] = 8'b01000101;
+	assign MemByte[11] = 8'b11000010; // negative jump check
 
     // 3. 프로세서의 'pc' 출력을 메모리의 주소로 사용
     // 이것이 바로 "Instruction Fetch" 단계에 해당합니다.
