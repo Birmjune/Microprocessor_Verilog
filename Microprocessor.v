@@ -81,7 +81,7 @@ module Microprocessor(
 		if (reset)
 			pc <= 0;
 		else
-			pc <= Branch == 0 ? pc + 1 : pc + 1 + imm2;
+			pc <= Branch == 0 ? pc + 1 : pc + 1 + {{6{imm2[1]}}, imm2};
 	end
 
 endmodule
